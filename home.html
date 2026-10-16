@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Dashboard - Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.2rem;
+            color: #00adb5;
+        }
+        .btn-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn {
+            text-decoration: none;
+            background-color: #00adb5;
+            color: #ffffff; /* Sahi syntax: #ffffff ya white */
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 173, 181, 0.4);
+        }
+        .btn:hover {
+            background-color: #00ceed;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 206, 237, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Select Clock Type</h1>
+        <div class="btn-group">
+            <a href="index2.html" class="btn">View Analog Clock</a>
+            <a href="index3.html" class="btn">View Digital Clock</a>
+        </div>
+    </div>
+
+</body>
+</html>
